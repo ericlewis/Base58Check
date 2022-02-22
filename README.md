@@ -20,6 +20,16 @@ Add the following line to your `Package.swift` file:
 ```
 ...or integrate with Xcode via `File -> Swift Packages -> Add Package Dependency...` using the URL of the repository.
 
+## Usage
+
+```swift
+import Base58Check
+
+let base58Check: Base58CheckCoding = Base58Check()
+let encodedString = base58Check.encode(bytes: bytes)
+let decodedStringBytes = try base58Check.decode(string: encodedString)
+```
+
 ## License
 
 `Base58Check` is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for more information.
