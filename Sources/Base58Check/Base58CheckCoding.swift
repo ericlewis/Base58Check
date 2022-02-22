@@ -1,9 +1,11 @@
+import Foundation
+
 public protocol Base58CheckEncoding {
-    func encode(bytes: [UInt8]) -> String
+    func encode(data: Data) -> String
 }
 
 public protocol Base58CheckDecoding {
-    func decode(string: String) throws -> [UInt8]
+    func decode(string: String) throws -> Data
 }
 
 public typealias Base58CheckCoding = Base58CheckEncoding & Base58CheckDecoding
