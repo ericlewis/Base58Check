@@ -26,8 +26,8 @@ Add the following line to your `Package.swift` file:
 import Base58Check
 
 let base58Check: Base58CheckCoding = Base58Check()
-let encodedString = base58Check.encode(bytes: bytes)
-let decodedStringBytes = try base58Check.decode(string: encodedString)
+let encodedString = base58Check.encode(data: data)
+let decodedData = try base58Check.decode(string: encodedString)
 ```
 
 ## License
