@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/anquii/Base58.git",
-            .upToNextMajor(from: "1.0.0")
+            .exact("1.0.1")
         )
     ],
     targets: [
