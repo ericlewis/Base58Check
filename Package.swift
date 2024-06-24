@@ -16,8 +16,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/anquii/Base58.git",
-            .exact("1.0.1")
+            url: "https://github.com/ericlewis/Base58.git",
+            .branchItem("main")
         )
     ],
     targets: [

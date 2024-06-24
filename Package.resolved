@@ -3,20 +3,20 @@
     "pins": [
       {
         "package": "Base58",
-        "repositoryURL": "https://github.com/anquii/Base58.git",
+        "repositoryURL": "https://github.com/ericlewis/Base58.git",
         "state": {
-          "branch": null,
-          "revision": "7e4a1e4e6813c750ed2f9e80a0494c608eebb2ca",
-          "version": "1.0.1"
+          "branch": "main",
+          "revision": "8092c3b34d4001a10d436616aeeeae023ac45cab",
+          "version": null
         }
       },
       {
         "package": "BigInt",
-        "repositoryURL": "https://github.com/attaswift/BigInt.git",
+        "repositoryURL": "https://github.com/ericlewis/BigInt.git",
         "state": {
-          "branch": null,
-          "revision": "0ed110f7555c34ff468e72e1686e59721f2b0da6",
-          "version": "5.3.0"
+          "branch": "master",
+          "revision": "81d5a9754f1c74dc465789d9396b697f6716deb5",
+          "version": null
         }
       }
     ]
